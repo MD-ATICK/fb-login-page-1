@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;500;600&family=Signika:wght@500&family=Varela+Round&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(62deg, rgb(37, 91, 197) 0%, rgb(0, 213, 255) 100%);
+}
+
+.container{
+    width: 450px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 13px;
+}
+
+.container h1{
+    text-align: center;
+    padding: 25px;
+    font-weight: 800;
+    font-size: 28px;
+    border-bottom: 2px solid rgb(129, 127, 127);
+}
+
+.container .sameinfo{
+    position: relative;
+    margin: 30px;
+    border-bottom: 2px solid rgb(135, 133, 133);
+}
+
+.container .sameinfo:hover{
+    border-bottom: 2.5px solid rgb(0, 128, 255);
+}
+
+.container input
+{
+    width: 100%;
+    padding: 0 8px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.container .sameinfo .atick{
+    position: absolute;
+    top: 35%;
+    left: 40px ;
+    font-size: 15px;
+    transform: translate(-50%);
+    opacity: 0.2;
+}
+
+
+.container .sameinfo:hover .atick{
+    position: absolute;
+    top: -5px;
+    font-size: 16px;
+    color: rgb(255, 77, 0);
+    opacity: 1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.container .frista{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: rgb(118, 116, 116);
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+
+.container .frista:hover{
+    text-decoration: underline 1px black;
+}
+
+.container .atickvai{
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 3rem;
+    font-weight: 800;
+   padding-top: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 16px;
+    text-align: center;
+    background: linear-gradient(62deg, rgb(37, 91, 197) 0%, rgb(0, 213, 255) 100%);
+}
+
+
+.container .atickvai:hover{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+.container .footeritem{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+.container .footeritem a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.container .footeritem a:hover{
+    text-decoration: underline black;
+}
